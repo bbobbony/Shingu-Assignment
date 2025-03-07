@@ -1,0 +1,64 @@
+2025/03/07 
+
+내가 해야 할 것
+
+1. flutter sdk 설치
+1-1) fultter를 다운 받고 환경 변수를 설정
+      ->C:\Users\kbe54\flutter\bin
+1-2) cmd에 flutter --version 입력 후 설치 확인
+
+2. 안드로이드 스튜디오 설치
+2-1) Android Studio 공식 계정에서 다운로드
+2-2) SDK Manager 설정
+      -> SDK Manager-> SDK Tools -> Anroid SDK Command-line Tools 체크 후 OK
+2-3) 왼쪽 리스트에서 Plugins 클릭 후 Flutter 설치
+2-4) cmd창에서 flutter doctor로 연동 확인
+
+3. flutter project 생성 후 run 해보기
+3-1) Flutter project 클릭후 왼쪽 리스트에서 flutter 클릭
+3-2) 프로젝트 제목은 소문자와 밑줄로만 작성 + flutter깔았던 경로 설정해주기
+3-3) create클릭 후 dart.main파일로 가서 상단에 Enable dart를 클릭
+3-4) 크롬, 모바일, 웹등의 애뮬레이터를 선택 후 run
+
+
+※ 주의해야 할 것 or 오류가 난 부분들
+
+1. 환경변수 설정하는 법
+flutter 설치하고 환경변수를 설치하지 않으면
+cd C:\flutter\bin으로 매번 가서 flutter --version을 cmd에 입력해야 하는 번거로움이 있다.
+그러나 환경변수를 추가 해주면 어느 경로에서든 버전정보을 알 수 있다.
+설정-> 정보-> 시스템 고급설정 -> 환경변수-> path-> 환경변수 추가하기-> C:\Users\kbe54\flutter\bin 꼭 bin까지 적기
+
+2. 환경변수 후의 cmd
+cmd창을 켜두고 환경변수를 설정했을 때에는 
+반드시 cmd창을 껐다 켜야 새로운 환경변수가 저장되어 적용된다.
+
+3. 안드로이드 스튜디오 재설치
+삭제를 하면 adb.exe라는 파일 몇개가 현재 실행중이라고 삭제 할 수 없다는 창이 나온다
+이럴때는 작업관리자 -> 성능 -> CPU -> 핸들 검색창에 AndroidCook(안드로이드 폴더명) 검색-> 해당 파일 하위 프로세스 종료하기
+후에 다시한번 삭제 해본다면 깔끔히 삭제가 되는 것을 볼 수 있다.
+
+4. flutter doctor(나의 경우)
+컴퓨터 마다 환경이 조금씩 다르기에 최종 연동 점검시 나오는 오류도 다 제각기였지만
+안드로이드 설치 경로를 flutter가 찾지 못해서 설치가 안된걸로 나왔다.
+-> 수동으로 cmd창에 flutter config --android-studio-dir "C:\Program Files\Android\Android Studio" 입력
+    파일 경로에 공백이 있다면 반드시 ""를 붙여 줄 것!!
+
+또하나는 라이센스 허가를 받아야 한다. flutter doctor --android-licenses 입력 -> y클릭 
+
+마지막으로 Visual Studio Installer에서 C++을 사용한 데스크톱 개발을 워크로드에서 다운받아주면 끝
+
+
+설치 및 연동 후기
+단순히 프로그램을 설치하는데 그치지 않고 나의 컴퓨터 환경에 맞추어
+적용시키는 부분이 어려웠다. 프로그램 설치 위치부터 환경변수 cmd 사용까지
+비교적 간단하다는 생각이 들지만 프로그램과 sdk의 연동 과정이 까다롭다고 느꼈다.
+그러나 위의 과정들에서 발생하는 오류들을 해결하고 프로젝트를 run했을때 발생하는
+성취감은 이루 말할 수 없다. 많은 블로그와 대화형 AI를 참고하며 차곡차곡 쌓은 나의
+노력이 한번에 보상을 받는 기분이였다. 개발자에게 있어서 중요한 기본적 자질 중 하나는
+개발환경 구성을 할 수 있어야 하기에 앞으로도 컴퓨터 설정과 관련된 기능들을 공부하며 성장 할 것이다.
+
+
+
+
+
