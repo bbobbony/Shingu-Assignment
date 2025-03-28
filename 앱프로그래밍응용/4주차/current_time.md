@@ -93,3 +93,38 @@ class _MyHomePageState extends State<MyHomePage> {
 }
 
 ```
+
+<br>
+
+## 동작화면
+
+<br>
+
+|순서|선|후|
+|----|----|----|
+||<img src="https://raw.githubusercontent.com/bbobbony/Images/main/KakaoTalk_20250329_022115308.jpg" alt="KakaoTalk Image" width="300" height="600"/>|<img src="https://raw.githubusercontent.com/bbobbony/Images/main/KakaoTalk_20250329_022115308_01.jpg" alt="KakaoTalk Image" width="300" height="600"/>|
+
+<br>
+<br>
+
+## ✅intl이란?
+### -> Internationalization (국제화) 패키지로, Dart 및 Flutter에서 다양한 언어와 지역 설정에 맞는 날짜, 시간, 숫자 및 메시지 형식화 등을 처리하는 데 사용됨
+<br>
+
+### ✅패키지 설치 방법
+- Flutter프로젝트/pubspec.yaml을 클릭
+- dependencies 아래에 intl 패키지 추가
+```dart
+dependencies:
+  flutter:
+    sdk: flutter
+  *intl: ^0.18.0* 
+```
+- cmd창을 열고 프로젝트 폴더로 이동한 후 아래의 명령어 실시
+```cmd
+C:\Users\kbe54\AndroidStudioProjects\current_time> flutter pub get
+
+```
+- cmd창을 닫고 프로젝트로 돌아와 main.dart파일 상단에 import 'package:intl/intl.dart'; 추가!
+- 프로젝트 run버튼 클릭시 정상적으로 동작
+
