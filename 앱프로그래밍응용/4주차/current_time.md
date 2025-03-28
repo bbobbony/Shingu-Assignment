@@ -128,3 +128,5 @@ C:\Users\kbe54\AndroidStudioProjects\current_time> flutter pub get
 - cmd창을 닫고 프로젝트로 돌아와 main.dart파일 상단에 import 'package:intl/intl.dart'; 추가!
 - 프로젝트 run버튼 클릭시 정상적으로 동작
 
+<br>
+<br>
