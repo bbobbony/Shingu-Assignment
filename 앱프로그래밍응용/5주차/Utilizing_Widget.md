@@ -1,10 +1,10 @@
 # 앱프로그래밍응용 5주차 과제 위젯 활용하기 DART
 
-### 위 이미지대로 위젯 활용해보기
+### 위젯을 사용하여 색별 컨테이너 배치
 
 #### main.dart 코드
 
-```dart
+```
 import 'package:flutter/material.dart';
 
 void main() {
@@ -36,28 +36,48 @@ class MyHomePage extends StatelessWidget {
     return Scaffold(
       body: Center(
         child: Column(
-          mainAxisSize: MainAxisSize.max,
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            // 빨강 대신 파란 컨테이너 2개를 수평으로 배치
+            // 수평 Row
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
+                // 파랑 + 검정 (수직으로 쌓음)
                 Container(
-                  width: 500,
+                  width: 350,
                   height: 400,
                   color: Colors.red,
                 ),
-                Container(
-                  width: 500,
-                  height: 400,
-                  color: Colors.black,
+
+                Column(
+                  children: [
+                    Row(
+                      children: [
+                        Container(
+                          width: 150,
+                          height: 200,
+                          color: Colors.blueAccent,
+                        ),
+                        Container(
+                          width: 150,
+                          height: 200,
+                          color: Colors.orange,
+                        ),
+                      ],
+                    ),
+                    Container(
+                      width: 300,
+                      height: 200,
+                      color: Colors.black,
+                    ),
+                  ],
                 ),
               ],
             ),
-            // 노랑 컨테이너 아래쪽에 배치
+
+            // 아래 수직 노랑
             Container(
-              width: 1000,
+              width: 650,
               height: 400,
               color: Colors.yellow,
             ),
@@ -68,7 +88,9 @@ class MyHomePage extends StatelessWidget {
   }
 
 
+
 }
 
-
 ```
+
+
