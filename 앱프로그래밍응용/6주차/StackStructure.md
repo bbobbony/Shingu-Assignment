@@ -2,7 +2,6 @@
 
 ## 페이지 이동간의 push, pop의 형태로 이동되는 stack구조와 생명주기 대해 알아보자!
 
-<br>
 
 ### 1-1 . StatelessWidget(정적 위젯)의 build() 동작
 
@@ -242,7 +241,24 @@ class _SecondStatefulPageState extends State<SecondStatefulPage> {
 
 <br>
 
-
 #### <StatefulWidget init(), build(), dispose() 동작 출력>
 
 ![image discription](https://github.com/bbobbony/Images/blob/main/StatefulWidget%EC%83%9D%EB%AA%85%EC%A3%BC%EA%B8%B0.png)
+
+<br>
+
+## 🤔왜 StatelessWidget에는 생명주기가 build() 하나뿐일까?
+
+#### => StatelessWidget은 상태가 없어서 시작(init)이나 종료(dispose)의 '관리해야 할 시점' 자체가 필요 없다.
+   #### build()는 위젯이 화면에 나타날 때 실행되는 것이므로 정적, 동적 위젯 둘다에게 필요하다.
+
+   <br>
+
+|구분   |StatelessWidget(정적) |StatefulWidget(동적)  | 
+|--|--|--|
+|상태|없음|있음|
+|생명주기 메서드|build() 하나뿐!|initState(), buile(), dispose() 등|
+|상태변경|불가능|가능 -> setState()|
+
+<br>
+
