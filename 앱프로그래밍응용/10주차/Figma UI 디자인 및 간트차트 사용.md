@@ -6,6 +6,7 @@
 [Figma로 만든 디자인 보러가기](https://www.figma.com/design/XwJwbxamqBo9rgnnQyCNJA/%EC%9E%90%EA%B2%A9%EC%A6%9D%ED%86%A1%ED%86%A1?node-id=0-1&m=dev&t=Y96pl90NlaRuQ4xZ-1)
 
 <br>
+<br>
 
 ## 2. 간트차트를 사용한 개발계획 구체화
 ### ✅ 간트차트란?
