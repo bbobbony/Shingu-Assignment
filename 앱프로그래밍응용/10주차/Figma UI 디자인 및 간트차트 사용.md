@@ -3,7 +3,11 @@
  <br>
  
 ## 1. 📱Figma UI디자인
-[Figma로 만든 디자인 보러가기](https://www.figma.com/design/XwJwbxamqBo9rgnnQyCNJA/%EC%9E%90%EA%B2%A9%EC%A6%9D%ED%86%A1%ED%86%A1?node-id=0-1&m=dev&t=Y96pl90NlaRuQ4xZ-1)
+
+![Figma 디자인 초안](https://raw.githubusercontent.com/bbobbony/Images/main/%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202025-05-13%20151932.png)
+
+
+[Figma로 만든 디자인 더 보기](https://www.figma.com/design/XwJwbxamqBo9rgnnQyCNJA/%EC%9E%90%EA%B2%A9%EC%A6%9D%ED%86%A1%ED%86%A1?node-id=0-1&m=dev&t=Y96pl90NlaRuQ4xZ-1)
 
 <br>
 <br>
