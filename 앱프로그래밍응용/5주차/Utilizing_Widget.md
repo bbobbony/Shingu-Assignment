@@ -4,7 +4,7 @@
 
 #### 결과출력창
 
-<img src="https://github.com/bbobbony/Images/blob/main/%EC%95%B1%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D_5%EC%A3%BC%EC%B0%A8_%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%ED%99%9C%EC%9A%A9.png?raw=true" width="200" height="200" alt="image description" />
+<img src="https://github.com/bbobbony/Images/blob/main/%EC%95%B1%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EA%B3%BC%EC%A0%9C/%EC%95%B1%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D_5%EC%A3%BC%EC%B0%A8_%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%ED%99%9C%EC%9A%A9.png?raw=true" width="200" height="200" alt="image description" />
 
 
 <br>
@@ -106,7 +106,7 @@ class MyHomePage extends StatelessWidget {
 
 #### 결과출력창 (img태그 사용해 크기조절시 raw=true를 입력해줘야 이미지로 변환이 됨)
 
-<img src="https://github.com/bbobbony/Images/blob/main/%EC%95%B1%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%AF%B8%EC%9D%91%EC%9A%A9_5%EC%A3%BC%EC%B0%A8_%EA%B3%84%EC%82%B0%EA%B8%B0.png?raw=true" width="200" height="400" alt="image description" /> 
+<img src="https://github.com/bbobbony/Images/blob/main/%EC%95%B1%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EA%B3%BC%EC%A0%9C/%EC%95%B1%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%AF%B8%EC%9D%91%EC%9A%A9_5%EC%A3%BC%EC%B0%A8_%EA%B3%84%EC%82%B0%EA%B8%B0.png?raw=true" width="200" height="400" alt="image description" /> 
 
 
 <br>
