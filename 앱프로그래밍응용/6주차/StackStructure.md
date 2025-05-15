@@ -76,7 +76,7 @@ class SecondPage extends StatelessWidget{//두번째페이지
 <br>
 
 #### <StatelessWidget build() 동작 출력>
-![image description](https://github.com/bbobbony/Images/blob/main/StatelessWidgetbulid()%20%EC%8B%A4%ED%96%89%20%EC%88%9C%EC%84%9C.png)
+![image description](https://github.com/bbobbony/Images/blob/main/%EC%95%B1%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EA%B3%BC%EC%A0%9C/StatelessWidgetbulid()%20%EC%8B%A4%ED%96%89%20%EC%88%9C%EC%84%9C.png)
 
 <br>
 <br>
@@ -243,7 +243,7 @@ class _SecondStatefulPageState extends State<SecondStatefulPage> {
 
 #### <StatefulWidget init(), build(), dispose() 동작 출력>
 
-![image discription](https://github.com/bbobbony/Images/blob/main/StatefulWidget%EC%83%9D%EB%AA%85%EC%A3%BC%EA%B8%B0.png)
+![image discription](https://github.com/bbobbony/Images/blob/main/%EC%95%B1%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EA%B3%BC%EC%A0%9C/StatefulWidget%EC%83%9D%EB%AA%85%EC%A3%BC%EA%B8%B0.png)
 
 <br>
 
