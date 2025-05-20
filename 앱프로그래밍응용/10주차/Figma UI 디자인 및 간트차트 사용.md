@@ -43,6 +43,12 @@
 - [X] 💫 진행률이나 완료 표시를 쉽게 넣을 수 있나
 
 <br>
-<br>
-<br>
 
+### ✅현재 간트차트 현황
+
+![간트차트 10주차까지](https://github.com/bbobbony/Images/blob/main/%EC%95%B1%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EA%B3%BC%EC%A0%9C/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202025-05-20%20143325.png)
+
+<br>
+<br>
+<br>
+<br>
