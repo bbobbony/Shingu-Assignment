@@ -13,6 +13,16 @@
 </div>
 
 <br>
+<br>
 
 
 ### 2. 11주차 간트차트
+![11주차 간트차트](https://github.com/bbobbony/Images/blob/main/%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4/Ganttchart_11week.png)
+
+#### 10주차와 달라진점 
+- 메인화면과 카테고리를 따로 두지 않고 앱디자인 중 두 화면을 통합
+- 간트차트 계획표에도 계획추가 및 일정변경
+
+
+<br>
+<br>
